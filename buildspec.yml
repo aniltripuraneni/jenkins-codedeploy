@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+        - echo nothing to install in install phase
+  build:
+    commands:
+      - echo nothing to build 
+  post_build:
+    commands:
+      - echo nothing for post build
+artifacts:
+  files:
+    - index.html
+    - appspec.yml
+    - scripts/install_dependencies.sh
+    - scripts/start_server.sh
+    - scripts/stop_server.sh
